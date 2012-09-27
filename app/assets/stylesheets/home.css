@@ -1,3 +1,11 @@
-// Place all the styles related to the Home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* RESET alpha_theme */
+.logo {
+  width: 554px;
+  height: 290px;
+  margin: auto;
+  margin-top: -50px;  
+}
+.logo img {
+  width: 554px;
+  height: 290px;
+}

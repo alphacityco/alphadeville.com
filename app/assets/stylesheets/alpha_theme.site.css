@@ -86,7 +86,7 @@ a:active
 	width: 40px;
 	height: 40px;
 	margin-right: 10px;
-	background: transparent url(../images/subheader/icon_plus.png) no-repeat;
+	background: transparent url(/assets/subheader/icon_plus.png) no-repeat;
 	vertical-align: middle;	
 }
 .subheader-text
@@ -110,7 +110,7 @@ a:active
 	width: 980px;
 	height: 30px;
 	margin-top: 50px;
-	background: transparent url(../images/subheader/separator.png) no-repeat;	
+	background: transparent url(/assets/subheader/separator.png) no-repeat;	
 }
 
 /******************************************************************************/
@@ -241,7 +241,7 @@ a:active
 /******************************************************************************/
 /*  BACKGROUND                                                                */
 /******************************************************************************/
-.first-section {background: #1f1f1f url(../images/top_bg/top_bg.png) repeat-x;}
+.first-section {background: #1f1f1f url(/assets/top_bg/top_bg.png) repeat-x;}
 .about {background-color: #d82545;}
 .services {background-color: #feac58;}
 .showcase {background-color: #273c67;}
@@ -352,9 +352,9 @@ a:active
 {
 	 background-position: left bottom;
 }
-a.socio_twitter {background: transparent url('../images/socio/team_twitter_icon.png') no-repeat;}
-a.socio_facebook {background: transparent url('../images/socio/team_facebook_icon.png') no-repeat;}
-a.socio_linkedin {background: transparent url('../images/socio/team_linkedin_icon.png') no-repeat;}
+a.socio_twitter {background: transparent url('/assets/socio/team_twitter_icon.png') no-repeat;}
+a.socio_facebook {background: transparent url('/assets/socio/team_facebook_icon.png') no-repeat;}
+a.socio_linkedin {background: transparent url('/assets/socio/team_linkedin_icon.png') no-repeat;}
 
 /******************************************************************************/
 /*  COLUMNS & MARGINS                                                         */
@@ -510,7 +510,7 @@ span.roll
 	position: absolute;
 	width: 260px;
 	height: 260px;
-	background: url(../images/portfolio/portfolio_icon.png) center center no-repeat #000;
+	background: url(/assets/portfolio/portfolio_icon.png) center center no-repeat #000;
 	-moz-box-shadow: 0px 0px 4px  #000; /* Firefox */
 	-webkit-box-shadow: 0px 0px 4px #000; /* Safari, Chrome */
 	box-shadow: 0px 0px 4px  #000; /* CSS3 */
@@ -637,7 +637,7 @@ span.roll
     width: 400px;
 	padding-bottom: 20px;
     border: solid 0px #ffffff;
-    background: #000000 url('../images/bg.png') repeat top left;
+    background: #000000 url('/assets/bg.png') repeat top left;
 	margin: 0 auto;
 }
 #mail-message-header
@@ -647,11 +647,11 @@ span.roll
 }
 .mail-message-success
 {
-    background: transparent url('../images/success.png') no-repeat top left;
+    background: transparent url('/assets/success.png') no-repeat top left;
 }
 .mail-message-error
 {
-    background: transparent url('../images/error.png') no-repeat top left;
+    background: transparent url('/assets/error.png') no-repeat top left;
 }
 #mail-message-window p
 {
@@ -698,11 +698,11 @@ span.roll
 {
 	 background-position: left bottom;
 }
-a.socio_contact_twitter {background: transparent url('../images/socio/contact_twitter_icon.png') no-repeat;}
-a.socio_contact_facebook {background: transparent url('../images/socio/contact_facebook_icon.png') no-repeat;}
-a.socio_contact_dribbble {background: transparent url('../images/socio/contact_dribbble_icon.png') no-repeat;}
-a.socio_contact_behance {background: transparent url('../images/socio/contact_behance_icon.png') no-repeat;}
-a.socio_contact_flickr {background: transparent url('../images/socio/contact_flickr_icon.png') no-repeat;}
+a.socio_contact_twitter {background: transparent url('/assets/socio/contact_twitter_icon.png') no-repeat;}
+a.socio_contact_facebook {background: transparent url('/assets/socio/contact_facebook_icon.png') no-repeat;}
+a.socio_contact_dribbble {background: transparent url('/assets/socio/contact_dribbble_icon.png') no-repeat;}
+a.socio_contact_behance {background: transparent url('/assets/socio/contact_behance_icon.png') no-repeat;}
+a.socio_contact_flickr {background: transparent url('/assets/socio/contact_flickr_icon.png') no-repeat;}
 
 /******************************************************************************/
 /*  FOOTER                                                                    */

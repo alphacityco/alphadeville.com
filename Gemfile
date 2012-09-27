@@ -27,10 +27,9 @@ end
 
 group :production do
   gem 'pg'
-  gem 'texticle', '~> 2.0', :require => 'texticle/rails'
 end
 
-gem 'seed_dumper'
+# gem 'seed_dumper'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
