@@ -1,0 +1,89 @@
+<!-- HEADER -->
+<div id="mask"></div>
+<table class="doc-loader">
+    <tr>
+        <td>
+            <img src="/assets/doc_loader/loading.gif" alt="loading..." />
+        </td>
+    </tr>
+</table> 
+<!-- END HEADER -->
+
+<!-- MENU -->
+<div class="navigation">
+  <img src="/assets/navigate.png" alt="navigate_img"/>
+  <ul>  
+    <li>  
+      <a href="#take-me-home" class="nav-active rounded"><span>Take Me Home</span></a>  
+    </li>  
+    <li>  
+      <a href="#about" class="rounded"><span>About</span></a>  
+    </li>  
+    <li>  
+      <a href="#services" class="rounded"><span>Services</span></a>    
+    </li>  
+    <li>  
+      <a href="#showcase" class="rounded"><span>Showcase</span></a>    
+    </li>
+    <li>  
+      <a href="#our-team" class="rounded"><span>Our Team</span></a>    
+    </li>   
+    <li>  
+      <a href="#news" class="rounded"><span>News</span></a>  
+    </li> 
+    <li>  
+      <a href="#contact-us" class="rounded"><span>Contact Us</span></a>  
+    </li>  
+  </ul>  
+</div>    
+<!-- END MENU -->
+
+<!-- SLIDER -->
+<div id="scrollable">
+  <div class="section first-section" id="take-me-home">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="header">
+          <div class="logo">
+            <img src="/assets/logo/logo.png" alt="logo" />
+          </div>
+        </div>
+      </div>      
+      <div class="galery-wrapper">
+        <div class="gallery">
+          <div class="gallery-slide gallery-slide-first">
+            <img src="/assets/slide/slide01.png" alt="slide 01" />
+          </div>
+          <div class="gallery-slide">
+            <img src="/assets/slide/slide02.png" alt="slide 02" />
+          </div>
+          <div class="gallery-slide">
+            <img src="/assets/slide/slide03.png" alt="slide 03" />
+          </div>  
+        </div>
+      </div>
+      <div class="clear"></div> 
+      <div id="gallery-nav"></div>             
+    </div> 
+  </div>
+<!-- END SLIDER -->  
+
+  <%= render :partial => 'about' %>
+
+  <%= render :partial => 'services' %>
+
+  <%= render :partial => 'showcase' %>
+
+  <%= render :partial => 'team' %>
+
+  <%= render :partial => 'news' %>
+
+  <%= render :partial => 'contact' %>  
+  
+  <div class="footer">
+    <div class="footer_logo">
+      <img src="/assets/footer/footer_logo.png" alt="footer_image">
+    </div>
+            <p class="m-bottom-40">&copy; Copyright 2012 DryThemes - Built with love :)</p>
+        </div>                            
+</div> 
