@@ -22,7 +22,7 @@ gem 'jquery-rails'
 
 group :development do
   gem 'sqlite3'
-  # gem 'heroku_san'
+  gem 'heroku_san'
 end
 
 group :production do

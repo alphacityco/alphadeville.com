@@ -11,3 +11,63 @@
  *= require_self
  *= require_tree .
  */
+
+/* COMMON */
+.make-word-breakable {
+  word-wrap: break-word;
+}
+
+.uppercase {
+  text-transform:uppercase;
+}
+
+b {
+  font-weight: bold !important;
+}
+i {
+  font-style: italic !important;
+}
+
+.center-text {  
+  text-align: center;
+}
+.right-text {
+  text-align: right;
+}
+.left-text {
+  text-align: left;
+}
+
+.pull-down {
+  vertical-align: bottom !important;
+}
+.pull-up {
+  vertical-align: top !important;
+}
+.pull-middle {
+  vertical-align: middle !important;
+}
+
+.relax {
+  clear: both;
+}
+
+/* RESET */
+.about {
+  height: 880px !important;
+}
+
+.services {
+  height: 1325px !important;
+}
+.service-title {
+  font-weight: bold;
+}
+
+.showcase-sub-container .pic-frame a {
+  color: #273C66;
+}
+.showcase-sub-container .pic-frame a:hover {
+  color: #58ACFA;
+  text-decoration: underline;
+}
