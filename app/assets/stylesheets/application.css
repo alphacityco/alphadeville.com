@@ -38,6 +38,12 @@ i {
   text-align: left;
 }
 
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
 .pull-down {
   vertical-align: bottom !important;
 }
@@ -54,14 +60,17 @@ i {
 
 /* RESET */
 .about {
-  height: 880px !important;
+  height: 975px !important;
 }
 
 .services {
-  height: 1325px !important;
+  height: 1045px !important;
 }
 .service-title {
   font-weight: bold;
+}
+.services-list p {
+  text-align:justify;  
 }
 
 .showcase-sub-container .pic-frame a {

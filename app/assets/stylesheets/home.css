@@ -9,3 +9,13 @@
   width: 554px;
   height: 290px;
 }
+
+.subheader-text-recipe {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.tweet-btn {
+  margin-right: -20px;
+}
