@@ -16,6 +16,15 @@
   font-size: 15px;
   margin-top: 10px;
 }
-.tweet-btn {
-  margin-right: -20px;
+
+#showcase .area-title {
+  color: #8C9FC5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 36px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+#showcase .area-title p {
+  display: inline;
+  font-size: 20px;
 }

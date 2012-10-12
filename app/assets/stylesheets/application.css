@@ -80,3 +80,6 @@ i {
   color: #58ACFA;
   text-decoration: underline;
 }
+.showcase-sub-container {
+  padding-top: 30px !important;
+}
