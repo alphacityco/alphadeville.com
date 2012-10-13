@@ -703,6 +703,7 @@ a.socio_contact_facebook {background: transparent url('/assets/socio/contact_fac
 a.socio_contact_dribbble {background: transparent url('/assets/socio/contact_dribbble_icon.png') no-repeat;}
 a.socio_contact_behance {background: transparent url('/assets/socio/contact_behance_icon.png') no-repeat;}
 a.socio_contact_flickr {background: transparent url('/assets/socio/contact_flickr_icon.png') no-repeat;}
+a.socio_contact_github {background: transparent url('/assets/socio/contact_github_icon.png') no-repeat;}
 
 /******************************************************************************/
 /*  FOOTER                                                                    */
@@ -710,15 +711,17 @@ a.socio_contact_flickr {background: transparent url('/assets/socio/contact_flick
 .footer
 {
 	width: 100%;
-    padding-top: 20px;
-    text-align: center;
-	color: #1e1e1e;   
+  padding-top: 20px;
+  text-align: center;
+	color: #1e1e1e;
+  background: url('/assets/top_bg/top_bg-reverse.png');   
+  margin-bottom: -40px;
 }
 .footer_logo img
 {
-	width: 65px;
-    height: 65px;
-	margin: 0 auto 20px auto;
+	width: 100px;
+  height: 100px;
+  margin: 0 auto 0px auto;
 }
 
 /******************************************************************************/

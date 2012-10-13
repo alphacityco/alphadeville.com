@@ -10,6 +10,10 @@
   height: 290px;
 }
 
+.galery-wrapper {
+  margin-top: 60px;
+}
+
 .subheader-text-recipe {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
