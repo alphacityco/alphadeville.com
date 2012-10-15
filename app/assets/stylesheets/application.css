@@ -59,12 +59,16 @@ i {
 }
 
 /* RESET */
-.about {
+#take-me-home {
+  height: 725px;
+}
+
+#about {
   height: 975px !important;
 }
 
-.services {
-  height: 1045px !important;
+#services {
+  height: 980px !important;
 }
 .service-title {
   font-weight: bold;
@@ -73,6 +77,9 @@ i {
   text-align:justify;  
 }
 
+#showcase {
+  height: 2650px;
+}
 .showcase-sub-container .pic-frame a {
   color: #273C66;
 }
@@ -82,4 +89,11 @@ i {
 }
 .showcase-sub-container {
   padding-top: 30px !important;
+}
+
+#our-team .column-300 p a {
+  color: #504F11;
+}
+#our-team .column-300 p a:hover {
+  color: #686716;
 }
