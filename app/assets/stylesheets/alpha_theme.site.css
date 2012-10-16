@@ -355,6 +355,8 @@ a:active
 a.socio_twitter {background: transparent url('/assets/socio/team_twitter_icon.png') no-repeat;}
 a.socio_facebook {background: transparent url('/assets/socio/team_facebook_icon.png') no-repeat;}
 a.socio_linkedin {background: transparent url('/assets/socio/team_linkedin_icon.png') no-repeat;}
+a.socio_behance {background: transparent url('/assets/socio/contact_behance_icon.png') no-repeat;}
+a.socio_github {background: transparent url('/assets/socio/contact_github_icon.png') no-repeat;}
 
 /******************************************************************************/
 /*  COLUMNS & MARGINS                                                         */
