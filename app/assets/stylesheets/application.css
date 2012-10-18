@@ -97,3 +97,10 @@ i {
 #our-team .column-300 p a:hover {
   color: #686716;
 }
+
+.contact-form input[type="text"] {
+  width: 309px !important;
+}
+.contact-form textarea {
+  width: 309px !important;
+}
