@@ -27,15 +27,20 @@
       </div>
       <div class="clear"></div>    
       
-      <form id="contact-form" method="post" action="" enctype="application/x-www-form-urlencoded">        
+      <form id="contact-form">        
+  
         <label for="name">Tu E-mail *</label>
-        <input type="text" id="email" name="contact[email]" class="rounded" />        
+        <input type="text" id="user_email" class="rounded" name="user[email]" />
+        
         <label for="name">Tu Mensaje *</label>
-        <textarea id="message" name="contact[message]" cols="35" rows="7" class="rounded"></textarea>
+        <textarea id="user_message" cols="35" rows="7" class="rounded" name="user[message]"></textarea>
+        
+        <label for="name">Confirma el envio *</label>
         <%= recaptcha_tags %>
-        <input type="button" id="submit-mail" class="submit-btn rounded" value="SEND" />
+
+        <a id="submit-mail" class="submit-btn rounded" href="<%= send_mail_path %>">SEND</a>
+
       </form>
-            
 
     </div>
     <div class="column-525 m-top-50">

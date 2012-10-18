@@ -17,4 +17,10 @@
 $(function(){
 
 
+
 });
+
+// COMMON METHODS FOR ALL APPLICATION :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+function handle_fail(xhr, message) {  
+  alert(message);  
+}
