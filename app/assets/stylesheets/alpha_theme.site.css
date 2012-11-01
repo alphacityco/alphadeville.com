@@ -338,7 +338,7 @@ a:active
 .socio ul li.last {
 	margin-right: 0px;
 }
-.socio ul li a
+/*.socio ul li a
 {	
     display: block;
     height: 37px;
@@ -351,7 +351,7 @@ a:active
 .socio ul li a:hover 
 {
 	 background-position: left bottom;
-}
+}*/
 a.socio_twitter {background: transparent url('/assets/socio/team_twitter_icon.png') no-repeat;}
 a.socio_facebook {background: transparent url('/assets/socio/team_facebook_icon.png') no-repeat;}
 a.socio_linkedin {background: transparent url('/assets/socio/team_linkedin_icon.png') no-repeat;}
@@ -686,7 +686,7 @@ span.roll
 {
 	margin-right: 0px;
 }
-.socio_contact ul li a
+/*.socio_contact ul li a
 {	
     display: block;
     height: 37px;
@@ -699,7 +699,7 @@ span.roll
 .socio_contact ul li a:hover 
 {
 	 background-position: left bottom;
-}
+}*/
 a.socio_contact_twitter {background: transparent url('/assets/socio/contact_twitter_icon.png') no-repeat;}
 a.socio_contact_facebook {background: transparent url('/assets/socio/contact_facebook_icon.png') no-repeat;}
 a.socio_contact_dribbble {background: transparent url('/assets/socio/contact_dribbble_icon.png') no-repeat;}
