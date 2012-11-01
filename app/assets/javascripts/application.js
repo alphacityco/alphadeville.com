@@ -16,7 +16,10 @@
 
 $(function(){
 
-
+  $('.glow-me').addGlow({
+    radius: 100,
+    duration: 500
+  });
 
 });
 
