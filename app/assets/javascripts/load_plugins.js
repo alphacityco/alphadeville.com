@@ -1,6 +1,7 @@
 // GOOGLE ANALYTICS  
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-36211934-1']);
+  _gaq.push(['_setDomainName', 'alphadeville.com']);
   _gaq.push(['_trackPageview']);
 
   (function() {
