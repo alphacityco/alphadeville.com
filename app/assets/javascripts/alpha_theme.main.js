@@ -1,21 +1,21 @@
 
 $(document).ready(function() {
-     $(window).load(function(){
-        $('.doc-loader').fadeOut('slow');
-     });
+  $(window).load(function(){
+    $('.doc-loader').fadeOut('slow');
+  });
 	
-    $('.gallery').code4netslideshow({
-        'navigation' : [
-            {
-                'id' : 'gallery-nav',
-                'type' : 'bullet'           //bullet/arrow
-            }
-        ],
-        'slideInterval' : 5,
-        'pauseInterval' : 10, 
-        'type' : 'horizontal',
-        'autoSlide' : true
-    });
+  $('.gallery').code4netslideshow({
+    'navigation' : [
+      {
+        'id' : 'gallery-nav',
+        'type' : 'bullet'           //bullet/arrow
+      }
+    ],
+    'slideInterval' : 5,
+    'pauseInterval' : 10, 
+    'type' : 'horizontal',
+    'autoSlide' : true
+  });
 	
 	$('.navigation li a').hover(  
 		function() {  

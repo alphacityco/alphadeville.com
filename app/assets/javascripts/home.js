@@ -55,7 +55,32 @@ $(function(){
 
   $("#services").load('/embeded_section?section=services');
 
-  $("#showcase").load('/embeded_section?section=showcase');
+  $("#showcase").load('/embeded_section?section=showcase', function(){    
+    $(function() {  
+      $('.roll').css('opacity','0');
+      $('.roll').hover(function () {
+          $(this).stop().animate({opacity: .7}, 'slow');
+        },
+        function () {
+          $(this).stop().animate({opacity: 0}, 'slow');
+        });
+    });
+    
+    $(function() {
+      if (window.PIE) {
+        $('.rounded').each(function() {
+          PIE.attach(this);
+        });
+      }
+    });
+
+    $('.pic a').lightBox({
+      imageLoading: '/assets/lightbox/loading.gif',
+      imageBtnClose: '/assets/lightbox/close.gif',
+      imageBtnPrev: '/assets/lightbox/prev.gif',
+      imageBtnNext: '/assets/lightbox/next.gif'
+    });
+  });
 
   $("#our-team").load('/embeded_section?section=team');
 
