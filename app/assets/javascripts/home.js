@@ -48,4 +48,22 @@ $(function(){
 
   });
 
+// LOADING SECTIONS WITH AJAX
+  $("#about").load('/embeded_section?section=about');  
+
+  //$("#news").load('/embeded_section?section=news');
+
+  $("#services").load('/embeded_section?section=services');
+
+  $("#showcase").load('/embeded_section?section=showcase');
+
+  $("#our-team").load('/embeded_section?section=team');
+
+  $("#contact-us").load('/embeded_section?section=contact', function(){
+    $('.glow-me').addGlow({
+      radius: 100,
+      duration: 500
+    });
+  });
+
 });

@@ -58,6 +58,13 @@ i {
   clear: both;
 }
 
+.spinner-for-window {
+  background-image: url("/assets/spinner.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
 /* RESET */
 #take-me-home {
   height: 725px;

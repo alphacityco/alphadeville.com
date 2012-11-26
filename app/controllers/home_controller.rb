@@ -19,5 +19,9 @@ class HomeController < ApplicationController
       format.json { render :json => { :status=> status }.to_json }
     end
   end
+
+  def embeded_section
+    render :partial => params[:section]
+  end
   
 end
