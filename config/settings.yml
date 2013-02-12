@@ -1,5 +1,3 @@
-development:  
-    RC_PUBLIC_KEY: "6Ldv4NcSAAAAAOFi-6ttKX1L-4CCbQdYY1OdzwKk"
-    RC_PRIVATE_KEY: "6Ldv4NcSAAAAADkfAIcVCQLoGX90id9JiAsMr8t6"
+development: 
     OFFICIAL_HOST: "localhost:3000"
     

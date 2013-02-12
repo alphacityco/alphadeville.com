@@ -84,11 +84,11 @@ $(function(){
 
   $("#our-team").load('/embeded_section?section=team');
 
-  $("#contact-us").load('/embeded_section?section=contact', function(){
-    $('.glow-me').addGlow({
-      radius: 100,
-      duration: 500
-    });
-  });
+  // $("#contact-us").load('/embeded_section?section=contact', function(){
+  //   $('.glow-me').addGlow({
+  //     radius: 100,
+  //     duration: 500
+  //   });
+  // });
 
 });
