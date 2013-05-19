@@ -16,10 +16,7 @@
     </li>
     <li>  
       <a href="#our-team" class="rounded"><span>Equipo</span></a>    
-    </li>   
-    <!--li>  
-      <a href="#news" class="rounded"><span>News</span></a>  
-    </li--> 
+    </li>  
     <li>  
       <a href="#contact-us" class="rounded"><span>Contacto</span></a>  
     </li>  
@@ -92,10 +89,7 @@
     <div class="column-455  m-top-50">
       <img src="/assets/about/about_image.png" class="m-bottom-50" alt="image_01"/>
       <p>Contamos con varios años de experiencia haciendo trabajos creativos dentro y fuera de Internet, certificados con premios, títulos y opiniones, pero quizá lo más importante es que <i style="font-size: 22px;">¡sabemos como hacerlo a tiempo!</i>.
-      </p>
-      <!--p>
-        Nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam.
-      </p-->
+      </p>      
     </div>
     <div class="clear"></div>
   </div>
@@ -121,16 +115,6 @@
       <div class="share-zone"></div>
       <div class="subheader-separator"></div>
     </div> 
-    <!--div class="column-640 m-top-50">
-      <div class="summary">
-        Una taza de arte y ciencia. Computación, diseño gráfico y literatura.
-      </div>
-    </div-->
-    <!--div class="column-300 m-left-40 m-top-50">
-      <p>
-        Terre estere doloremique sei laudantium, totames remeseo aperiam, eaque ipsa quae ab illo inventore veritatis rete et quasi architecto beataes vitae dicta sunt...
-      </p>
-    </div-->
     <div class="clear"></div>
     <div class="column-455 m-right-70 m-top-70">
       <img src="/assets/services/services_image.png" alt="image_02" style="width: 510px;"/>
@@ -202,13 +186,13 @@
       </p>
     </div>
     <div class="clear"></div>
-    <div class="showcase-sub-container">
+    <div class="showcase-sub-container">      
       
       <div class="area-title">Web <p>+ + + + + + + + + + + + + + + + + + + + +</p></div>
       <div class="pic-frame rounded">
         <div class="pic">
           <a href="/assets/portfolio/originals/portfolio_large_01.png" title="Bibliomula - Revista de literatura"><span class="roll"></span>
-          <img src="/assets/portfolio/thumbs/portfolio_small_01.png" alt="image_01" /></a>                         
+          <img src="/assets/portfolio/thumbs/portfolio_small_01.png" alt="Bibliomula" /></a>                         
         </div>
         <span><a href="http://bibliomula.com" target="_new">Bibliomula</a></span>
         <p>
@@ -217,14 +201,23 @@
       </div>
       <div class="pic-frame rounded">
         <div class="pic">
-          <a href="/assets/portfolio/originals/portfolio_large_02.jpg" title="The Counterpoint - Sistema web de discuciones inteligente"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_02.jpg" alt="image_02" /></a>            
+          <a href="/assets/portfolio/originals/portfolio_large_01_1.png" title="Pickista - Crea encuestas graficas para que tus amigos te ayuden"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_01_1.png" alt="Pickista" /></a>            
+        </div>
+        <span><a href="http://pickista.com" target="_new">Pickista</a></span>
+        <p>
+          ¿Como funciona? Mira el <a href="http://vimeo.com/52060963" target="_new">video</a>
+        </p>
+      </div>
+      <div class="pic-frame nomargin rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_02.jpg" title="The Counterpoint - Sistema web de discuciones inteligente"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_02.jpg" alt="The Counterpoint" /></a>            
         </div>
         <span><a href="http://the-counterpoint.com" target="_new">The Counterpoint</a></span>
         <p>
           Hecho en <a href="http://hasmanydevelopers.com/" target="_new">has_many :developers</a>     
         </p>
       </div>
-      <div class="pic-frame nomargin rounded">
+      <div class="pic-frame rounded">
         <div class="pic">
           <a href="/assets/portfolio/originals/portfolio_large_03.jpg" title="Portal web de la Universidad de Los Andes"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_03.jpg" alt="image_03" /></a>             
         </div>
@@ -235,14 +228,14 @@
       </div>
       <div class="pic-frame rounded">
         <div class="pic">
-          <a href="/assets/portfolio/originals/portfolio_large_04.jpg" title="Parenting Bridge - Aplicacion web para gestionar la custodia de hijos de padres divorciados"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_04.jpg" alt="image_04" /></a>             
+          <a href="/assets/portfolio/originals/portfolio_large_04.jpg" title="Parenting Bridge - Aplicacion web para gestionar la custodia de hijos de padres divorciados"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_04.jpg" alt="image_04" /></a>          
         </div>
         <span><a href="http://parentingbridge.com" target="_new">Parenting Bridge</a></span>
         <p>
           Hecho en <a href="http://hasmanydevelopers.com/" target="_new">has_many :developers</a>     
         </p>
       </div>
-      <div class="pic-frame rounded">
+      <div class="pic-frame nomargin rounded">
         <div class="pic">
           <a href="/assets/portfolio/originals/portfolio_large_05.jpg" title="Mil1 - Calculo de libros en lo que resta de vida"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_05.jpg" alt="image_05" /></a>             
         </div>
@@ -251,13 +244,31 @@
           Calculo de libros en lo que resta de vida             
         </p>
       </div>
-      <div class="pic-frame nomargin rounded">
+      <div class="pic-frame rounded">
         <div class="pic">
           <a href="/assets/portfolio/originals/portfolio_large_06.png" title="Gema RoR the_country_identity - Crawler del CIA Factbook"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_06.png" alt="image_06" /></a>    
         </div>
         <span><a href="http://p1nox.github.io/the_country_identity/">the_country_identity</a></span>
         <p>
           Gema RoR - Crawler del CIA Factbook
+        </p>
+      </div>
+      <div class="pic-frame rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_06.png" title="PSLoR - Probabilistic Soft Logic en Ruby"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_06.png" alt="image_06" /></a>    
+        </div>
+        <span><a href="https://github.com/p1nox/psl">PSLoR</a></span>
+        <p>
+          PSLoR - Probabilistic Soft Logic en Ruby
+        </p>
+      </div>
+      <div class="pic-frame nomargin rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_06.png" title="Bonlessjs - Modelo Controlador/Presentador para aplicaciones legacy RoR"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_06.png" alt="image_06" /></a>    
+        </div>
+        <span><a href="https://github.com/p1nox/boneless">Bonlessjs</a></span>
+        <p>
+          Modelo Controlador/Presentador
         </p>
       </div>
 
@@ -302,7 +313,7 @@
       </div>
       <div class="pic-frame rounded">
         <div class="pic">
-          <a href="/assets/portfolio/originals/portfolio_large_14.jpg" title="Background ilustrado para el site de Centro Ático, Universidad Javeriana, Bogotá-Colombia"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_14.jpg" alt="image_14" /></a>             
+          <a href="/assets/portfolio/originals/portfolio_large_14.jpg" title="Background ilustrado para el site de Centro Ático, Universidad Javeriana, Bogotá-Colombia"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_14.jpg" alt="image_14" /></a>      
         </div>
         <span>Background Universidad Javeriana</span>
         <p>
@@ -318,7 +329,7 @@
           Logotipo para la agencia de...
         </p>
       </div>
-
+      
       <div class="area-title">Ebooks <p>+ + + + + + + + + + + + + + + + + + + + +</p></div>
       <div class="pic-frame rounded">
         <div class="pic">
@@ -479,15 +490,13 @@
       <div class="share-zone"></div>
       <div class="subheader-separator"></div>
     </div>     
-    <div class="column-5980 m-top-50 center-text">
-      
+    <div class="column-5980 m-top-50 center-text">      
       <img src="/assets/footer/footer_logo.png"/>    
       <br /><br />
       <p>       
         <a href="mailto:alpha@alphadeville.com?Subject=" class="glow-me" style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 36px;font-style: italic;">alpha@alphadeville.com</a>
       </p>
-      <br />
-      
+      <br />      
       <p>       
         <a href="http://www.twitter.com/alphadeville" target="_new" class="glow-me" style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 36px;font-style: italic;">twitter</a> 
         <br /><br />
@@ -497,7 +506,6 @@
         <br /><br />
         <a href="https://github.com/alphadeville" target="_new" class="glow-me" style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 36px;font-style: italic;">github</a>
       </p>     
-
     </div>
     <div class="clear"></div>
   </div>
