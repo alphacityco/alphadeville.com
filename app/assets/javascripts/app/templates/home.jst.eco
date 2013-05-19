@@ -1,0 +1,517 @@
+<!-- MENU -->
+<div class="navigation">
+  <img src="/assets/navigate.png" alt="navigate_img"/>
+  <ul>  
+    <li>  
+      <a href="#take-me-home" class="nav-active rounded"><span>Portada</span></a>  
+    </li>  
+    <li>  
+      <a href="#about" class="rounded"><span>Alphadeville</span></a>  
+    </li>  
+    <li>  
+      <a href="#services" class="rounded"><span>Servicios</span></a>    
+    </li>  
+    <li>  
+      <a href="#showcase" class="rounded"><span>Vitrina</span></a>    
+    </li>
+    <li>  
+      <a href="#our-team" class="rounded"><span>Equipo</span></a>    
+    </li>   
+    <!--li>  
+      <a href="#news" class="rounded"><span>News</span></a>  
+    </li--> 
+    <li>  
+      <a href="#contact-us" class="rounded"><span>Contacto</span></a>  
+    </li>  
+  </ul>  
+</div>    
+<!-- END MENU -->
+
+<!-- SLIDER -->
+<div id="scrollable">
+  <div class="section first-section" id="take-me-home">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="header">
+          <div class="logo">
+            <img src="/assets/logo/logo.png" alt="logo" />
+          </div>
+        </div>
+      </div>      
+      <div class="galery-wrapper">
+        <div class="gallery">
+          <div class="gallery-slide gallery-slide-first">
+            <img src="/assets/slide/slide01.png" alt="slide 01" />
+          </div>
+          <div class="gallery-slide">
+            <img src="/assets/slide/slide02.png" alt="slide 02" />
+          </div>
+          <div class="gallery-slide">
+            <img src="/assets/slide/slide03.png" alt="slide 03" />
+          </div>  
+        </div>
+      </div>
+      <div class="clear"></div> 
+      <div id="gallery-nav"></div>             
+    </div> 
+  </div>
+<!-- END SLIDER -->  
+
+
+
+<!-- SECTIONS -->
+<div class="section about" id="about">    
+  
+  <div class="container">
+    <div class="arrow 01">
+      <img src="/assets/arrow/arrow_01.png" alt="arrow_01" />
+    </div> 
+    <div class="subheader">
+      <div class="subheader-icon"></div>
+      <div class="subheader-text">
+        alphadeville <span></span>       
+      </div>
+      <div class="subheader-text-recipe pull-right">
+        Martini clásico: 5,5 cl Ginebra o vodka para el Vodka Martini. 1,5 cl Vermú seco [1/5]         
+      </div>
+      <br/>
+      <div class="share-zone"></div>
+      <div class="subheader-separator"></div>
+    </div>         
+    <div class="column-455 m-right-70 m-top-50">
+      <div class="m-bottom-40 summary">
+        Cualquier cosa que usted pueda imaginar (siempre que sea legal) la podemos hacer...
+      </div>
+      <div class="m-bottom-40 summary-small">
+        Somos un pequeño grupo creativo (y detectives amateurs) que concibe la web desde sus <b>aspectos más importantes</b>: La web debe ser limpia, amistosa, concisa, portable, gráficamente de detalles muy cuidados y con textos impecables para cualquiera de sus funciones más comunes: <i style="font-size: 22px;">Web para ser vista, Web para ser leída y Web para ser usada.</i>
+      </div>
+      <p>
+        Actualmente, aplicamos estos criterios para todos y cada uno de los trabajos que desarrollamos, teniendo como punto de partida, la elaboración de proyectos centrados en el usuario y en su experiencia como tal. Nuestro proceso creativo y de diseño comienza allí, en elaborar un perfil del tipo de usuario de cada cliente, quien nos guiará exitosamente hasta la elaboración del producto final.  
+      </p>
+    </div>
+    <div class="column-455  m-top-50">
+      <img src="/assets/about/about_image.png" class="m-bottom-50" alt="image_01"/>
+      <p>Contamos con varios años de experiencia haciendo trabajos creativos dentro y fuera de Internet, certificados con premios, títulos y opiniones, pero quizá lo más importante es que <i style="font-size: 22px;">¡sabemos como hacerlo a tiempo!</i>.
+      </p>
+      <!--p>
+        Nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam.
+      </p-->
+    </div>
+    <div class="clear"></div>
+  </div>
+
+</div><!-- end about -->
+
+
+<div class="section services" id="services">
+  
+  <div class="container">
+    <div class="arrow 02">
+      <img src="/assets/arrow/arrow_02.png" alt="arrow_02" />
+    </div> 
+    <div class="subheader">
+      <div class="subheader-icon"></div>
+      <div class="subheader-text">
+        servicios <span></span>
+      </div>
+      <div class="subheader-text-recipe pull-right">
+        Los ingredientes se añaden en un vaso de mezclar con cubitos de hielo, y deben removerse bien [2/5]        
+      </div>
+      <br/>
+      <div class="share-zone"></div>
+      <div class="subheader-separator"></div>
+    </div> 
+    <!--div class="column-640 m-top-50">
+      <div class="summary">
+        Una taza de arte y ciencia. Computación, diseño gráfico y literatura.
+      </div>
+    </div-->
+    <!--div class="column-300 m-left-40 m-top-50">
+      <p>
+        Terre estere doloremique sei laudantium, totames remeseo aperiam, eaque ipsa quae ab illo inventore veritatis rete et quasi architecto beataes vitae dicta sunt...
+      </p>
+    </div-->
+    <div class="clear"></div>
+    <div class="column-455 m-right-70 m-top-70">
+      <img src="/assets/services/services_image.png" alt="image_02" style="width: 510px;"/>
+    </div>
+    <div class="column-455 m-top-70">
+      <ul class="services-list">
+        <li>
+          <img src="/assets/services/services_icon_01.png" alt="icon_01" />
+          <span class="service-title">WEB</span>
+          <p>
+            Desde la elaboración desde 0 hasta la auditoría de proyectos que ya viven en internet. Reconocida experiencia en el uso de redes sociales.
+          </p>
+        </li>
+        <li>
+          <img src="/assets/services/services_icon_02.png" alt="icon_02" />
+          <span class="service-title">Diseño gráfico</span>
+          <p>
+            Podemos abordar proyectos gráficos en todas las áreas del diseño: web, multimedia, impreso,  etc. ¿Una idea abstracta? sabemos cómo crearla. 
+          </p>
+        </li>
+        <li>
+          <img src="/assets/services/services_icon_04.png" alt="icon_04" />
+          <span class="service-title">Aplicaciones web</span>
+          <p>
+            Nuestros productos son responsivos para cualquier resolución de pantalla pero también desarrollamos aplicaciones para teléfonos Android en lenguaje nativo.
+          </p>
+        </li>
+
+        <li>
+          <img src="/assets/services/services_icon_03.png" alt="icon_03" />
+          <span class="service-title">Asesoría y consulta</span>
+          <p>
+            Integramos sistemas. Corregimos y adecuamos textos para la web y hacemos Ebooks.
+          </p>
+        </li>        
+      </ul>
+    </div>
+  </div>
+
+</div><!-- end services -->
+
+
+<div class="section showcase" id="showcase">
+  
+  <div class="container">
+    <div class="arrow 03">
+      <img src="/assets/arrow/arrow_03.png" alt="arrow_03" />
+    </div>
+    <div class="subheader">
+      <div class="subheader-icon"></div>
+      <div class="subheader-text">
+        vitrina <span></span>
+      </div>
+      <div class="subheader-text-recipe pull-right">
+        Se sirve sin hielo, en una copa de cóctel enfriada [3/5]        
+      </div>
+      <br/>      
+      <div class="share-zone"></div>
+      <div class="subheader-separator"></div>
+    </div> 
+    <div class="column-640 m-top-50">
+      <div class="summary">
+        Nuestras creaciones, trabajos, ideas y herramientas...
+      </div>
+    </div>
+    <div class="column-300 m-left-40 m-top-50">
+      <p>
+        Historial de nuestros casos resueltos dentro y fuera de la web. Algunas aplicaciones a la medida de nuestros clientes, y otras de código abierto para contribuir con la comunidad en Internet.
+      </p>
+    </div>
+    <div class="clear"></div>
+    <div class="showcase-sub-container">
+      
+      <div class="area-title">Web <p>+ + + + + + + + + + + + + + + + + + + + +</p></div>
+      <div class="pic-frame rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_01.png" title="Bibliomula - Revista de literatura"><span class="roll"></span>
+          <img src="/assets/portfolio/thumbs/portfolio_small_01.png" alt="image_01" /></a>                         
+        </div>
+        <span><a href="http://bibliomula.com" target="_new">Bibliomula</a></span>
+        <p>
+          Revista de literatura
+        </p>
+      </div>
+      <div class="pic-frame rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_02.jpg" title="The Counterpoint - Sistema web de discuciones inteligente"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_02.jpg" alt="image_02" /></a>            
+        </div>
+        <span><a href="http://the-counterpoint.com" target="_new">The Counterpoint</a></span>
+        <p>
+          Hecho en <a href="http://hasmanydevelopers.com/" target="_new">has_many :developers</a>     
+        </p>
+      </div>
+      <div class="pic-frame nomargin rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_03.jpg" title="Portal web de la Universidad de Los Andes"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_03.jpg" alt="image_03" /></a>             
+        </div>
+        <span><a href="http://www.ula.ve/" target="_new">Universidad de Los Andes</a></span>
+        <p>
+          Hecho en <a href="http://www.ula.ve/" target="_new">Universidad de Los Andes</a>           
+        </p>
+      </div>
+      <div class="pic-frame rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_04.jpg" title="Parenting Bridge - Aplicacion web para gestionar la custodia de hijos de padres divorciados"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_04.jpg" alt="image_04" /></a>             
+        </div>
+        <span><a href="http://parentingbridge.com" target="_new">Parenting Bridge</a></span>
+        <p>
+          Hecho en <a href="http://hasmanydevelopers.com/" target="_new">has_many :developers</a>     
+        </p>
+      </div>
+      <div class="pic-frame rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_05.jpg" title="Mil1 - Calculo de libros en lo que resta de vida"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_05.jpg" alt="image_05" /></a>             
+        </div>
+        <span><a href="http://parentingbridge.com" target="_new">Mil1 (Mil y un libros)</a></span>
+        <p>
+          Calculo de libros en lo que resta de vida             
+        </p>
+      </div>
+      <div class="pic-frame nomargin rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_06.png" title="Gema RoR the_country_identity - Crawler del CIA Factbook"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_06.png" alt="image_06" /></a>    
+        </div>
+        <span><a href="http://p1nox.github.io/the_country_identity/">the_country_identity</a></span>
+        <p>
+          Gema RoR - Crawler del CIA Factbook
+        </p>
+      </div>
+
+      <div class="area-title">Diseño <p>+ + + + + + + + + + + + + + + + + + + + +</p></div>
+      <div class="pic-frame rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_10.jpg" title="Violencia en el noviazgo - Campaña para la prevención de la violencia en el noviazgo"><span class="roll"></span>
+            <img src="/assets/portfolio/thumbs/portfolio_small_10.jpg" alt="image_10" /></a>             
+        </div>
+        <span>Violencia en el noviazgo</span>
+        <p>
+          Campaña para la prevención de la...
+        </p>
+      </div>
+      <div class="pic-frame rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_11.jpg" title="Tarjetas postales desde una perspectiva "pintoresca""><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_11.jpg" alt="image_11" /></a>             
+        </div>
+        <span>Souvenir Venezolano</span>
+        <p>
+          Tarjetas postales desde una...
+        </p>
+      </div>
+      <div class="pic-frame nomargin rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_12.jpg" title="Rediseño Editorial para una doble página"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_12.jpg" alt="image_12" /></a>             
+        </div>
+        <span>Editorial revista Watt</span>
+        <p>
+          Rediseño Editorial para una...
+        </p>
+      </div>
+      <div class="pic-frame rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_13.jpg" title="Logotipo para Café Origami, Bogotá-Colombia"><span class="roll"></span>
+            <img src="/assets/portfolio/thumbs/portfolio_small_13.jpg" alt="image_13" /></a>             
+        </div>
+        <span>Logotipo Café Origami</span>
+        <p>
+          Logotipo para Café Origami...
+        </p>
+      </div>
+      <div class="pic-frame rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_14.jpg" title="Background ilustrado para el site de Centro Ático, Universidad Javeriana, Bogotá-Colombia"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_14.jpg" alt="image_14" /></a>             
+        </div>
+        <span>Background Universidad Javeriana</span>
+        <p>
+          Background ilustrado para el...
+        </p>
+      </div>
+      <div class="pic-frame nomargin rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_15.jpg" title="Logotipo para la agencia de turismo responsable Endógeno, Mérida Venezuela"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_15.jpg" alt="image_15" /></a>             
+        </div>
+        <span>Logotipo Endógeno TR</span>
+        <p>
+          Logotipo para la agencia de...
+        </p>
+      </div>
+
+      <div class="area-title">Ebooks <p>+ + + + + + + + + + + + + + + + + + + + +</p></div>
+      <div class="pic-frame rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_07.jpg" title="Poesía contemporánea de Japón"><span class="roll"></span>
+            <img src="/assets/portfolio/thumbs/portfolio_small_07.jpg" alt="image_07" /></a>             
+        </div>
+        <span>Antología japonesa</span>
+        <p>
+          Reseña/Descarga en <a href="http://bibliomula.org/index.php/posgutenberg/el-evangelio-del-ebook/50-bibliomula-org-presenta-antologia-poesia-contemporanea-de-japon.html">Bibliomula</a>
+        </p>
+      </div>
+      <div class="pic-frame rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_08.jpg" title="50 años de narrativa venezolana o manual para no perderse en Caracas"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_08.jpg" alt="image_08" /></a>             
+        </div>
+        <span>Narrativa venezolana</span>
+        <p>
+          Reseña/Descarga en <a href="http://bibliomula.org/index.php/archivo/34-ediciones-anterioes/3ra-edicion/94-mayo-2012-50-anos-de-narrativa-venezolana-o-manual-para-no-perderse-en-caracas.html">Bibliomula</a>
+        </p>
+      </div>
+      <div class="pic-frame nomargin rounded">
+        <div class="pic">
+          <a href="/assets/portfolio/originals/portfolio_large_09.jpg" title="Por qué las librerías: Porque a veces los libros te encuentran a ti y no tu a ellos"><span class="roll"></span><img src="/assets/portfolio/thumbs/portfolio_small_09.jpg" alt="image_09" /></a>             
+        </div>
+        <span>Por qué las librerías</span>
+        <p>
+          Reseña/Descarga en <a href="http://bibliomula.org/index.php/archivo/37-ediciones-anterioes/4ta-edicion/120-junio-2012-por-que-las-librerias.html">Bibliomula</a>
+        </p>
+      </div>
+
+    </div>  
+  </div>
+
+</div><!-- end showcase -->
+
+
+<div class="section our-team" id="our-team">
+  
+  <div class="container">
+    <div class="arrow 04">
+      <img src="/assets/arrow/arrow_04.png" alt="arrow_04" />
+    </div>
+    <div class="subheader">
+      <div class="subheader-icon"></div>
+      <div class="subheader-text">
+        equipo <span></span>
+      </div>
+      <div class="subheader-text-recipe pull-right">
+        Se adorna con una aceituna [4/5]        
+      </div>
+      <br/>
+      <div class="share-zone"></div>
+      <div class="subheader-separator"></div>
+    </div> 
+    <div class="column-640 m-top-50">
+      <div class="summary">
+        Tres áreas de trabajo, y tres agentes.
+      </div>
+    </div>
+    <div class="column-300 m-left-40 m-top-50">
+      <p>
+        Cada uno experto en su campo, todos creativos, todos proactivos, y claro, trabajando en equipo.
+      </p>
+    </div>
+    <div class="clear"></div>
+    <div class="column-300 m-top-55 m-right-40 center-text">
+      <img src="/assets/team/team_01.png" class="m-bottom-30" alt="team_01" style="width: 300px;" />
+      <div class="team-member-name  m-bottom-10">
+        Jorge Castrillon
+      </div>
+      <div class="team-member-position">
+        CDO
+      </div>
+      <div class="socio" style="margin-left: 37px;">
+        <ul>
+          <li style="width: 27px;height: 27px;">
+            <a href="https://twitter.com/castrillonh" target="_blank" class="twitter shadow" title="@castrillonh"></a>
+          </li>
+          <li class="last" style="width: 27px;height: 27px;">
+            <a href="http://www.behance.net/castrillonh" target="_blank" class="behance shadow" title="Jorge Castrillón on Behace"></a>
+          </li>          
+        </ul>
+        <br />
+        <div class="clear"></div>
+      </div>
+      <p>
+         Diseñador gráfico <a href="http://www.ula.ve">Universidad de Los Andes</a>, colaborador en <a href="http://www.mixelart.com" target="_blanck">Mixelart</a>, creador de <a href="https://www.facebook.com/Endogeno" target="_blanck">Endógeno souvenirs</a> y <a href="https://www.facebook.com/EndogenoTR" target="_blanck">Endógeno TR</a>.
+      </p>
+    </div>
+    <div class="column-300 m-top-55 m-right-40 center-text">
+      <img src="/assets/team/team_02.png" class="m-bottom-30" alt="team_02" style="width: 300px;" />
+      <div class="team-member-name  m-bottom-10">
+        Raul Pino
+      </div>
+      <div class="team-member-position">
+        CTO & CO-FUNDADOR
+      </div>
+      <div class="socio" style="margin-left: 37px;">
+        <ul>
+          <li style="width: 27px;height: 27px;">
+            <a href="https://twitter.com/p1nox" target="_blank" class="twitter shadow" title="@p1nox"></a>
+          </li>
+          <li class="last" style="width: 27px;height: 27px;">
+            <a href="https://github.com/p1nox" target="_blank" class="github shadow" title="Raul Pino on Github"></a>
+          </li>          
+        </ul>
+        <br />
+        <div class="clear"></div>
+      </div>
+      <p>
+        Ingeniero en Informatica <a href="http://www.ucla.edu.ve/" target="_blanck">UCLA</a>, Senior Developer <a href="http://hasmanydevelopers.com/" target="_blanck">has_manys :developers</a>, Android Developer <a href="http://bibliomula.org" target="_blanck">bibliomula.org</a>, skydive wannabe y AI/Data <3.
+      </p>
+    </div>
+    <div class="column-300 m-top-55 center-text">
+      <img src="/assets/team/team_03.png" class="m-bottom-30" alt="team_03" style="width: 300px;" />
+      <div class="team-member-name  m-bottom-10">
+        Jose Pino
+      </div>
+      <div class="team-member-position">
+        COO & CO-FUNDADOR
+      </div>
+      <div class="socio" style="margin-left: 37px;">
+        <ul>
+          <li style="width: 27px;height: 27px;">
+            <a href="https://twitter.com/bibliomula" target="_blank" class="twitter shadow" title="@bibliomula"></a>
+          </li>          
+          <li class="last" style="width: 27px;height: 27px;">
+            <a href="https://twitter.com/bobbylechuga" target="_blank" class="twitter shadow" title="@bobbylechuga"></a>
+          </li>
+        </ul>
+        <br />
+        <div class="clear"></div>
+      </div>
+      <p>
+         Webmaster <a href="http://www.ula.ve" target="_blanck">Universidad de Los Andes</a>, editor de <a href="http://bibliomula.org" target="_blanck">bibliomula.org</a>, bibliómano y creador de Ebooks.
+      </p>
+    </div>
+  </div>
+
+</div><!-- end our-team -->
+
+
+<div class="section contact-us" id="contact-us">
+  
+  <div class="container">
+    <div class="arrow 05">
+      <img src="/assets/arrow/arrow_05.png" alt="arrow_06" />
+    </div>
+    <div class="subheader">
+      <div class="subheader-icon"></div>
+      <div class="subheader-text">
+        contacto <span></span>
+      </div>
+      <div class="subheader-text-recipe pull-right">
+        Y muy importante: agitar más no revolver el Martini [5/5]        
+      </div>
+      <br/>
+      <div class="share-zone"></div>
+      <div class="subheader-separator"></div>
+    </div>     
+    <div class="column-5980 m-top-50 center-text">
+      
+      <img src="/assets/footer/footer_logo.png"/>    
+      <br /><br />
+      <p>       
+        <a href="mailto:alpha@alphadeville.com?Subject=" class="glow-me" style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 36px;font-style: italic;">alpha@alphadeville.com</a>
+      </p>
+      <br />
+      
+      <p>       
+        <a href="http://www.twitter.com/alphadeville" target="_new" class="glow-me" style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 36px;font-style: italic;">twitter</a> 
+        <br /><br />
+        <a href="http://www.facebook.com/alphadeville" target="_new" class="glow-me" style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 36px;font-style: italic;">facebook</a>
+        <br /><br />
+        <a href="https://www.linkedin.com/company/alphadeville" target="_new" class="glow-me" style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 36px;font-style: italic;">linkedin</a>
+        <br /><br />
+        <a href="https://github.com/alphadeville" target="_new" class="glow-me" style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 36px;font-style: italic;">github</a>
+      </p>     
+
+    </div>
+    <div class="clear"></div>
+  </div>
+
+</div><!-- end contact-us -->
+<!-- END SECTIONS -->
+
+
+
+  <div class="footer">
+    <div class="footer_logo">
+      <img href="" src="/assets/footer/footer_logo.png" alt="footer_image" />
+    </div>
+    <p class="m-bottom-40">&copy; Copyright 2012 Alphadeville. Todos los derechos reservados.</p>
+  </div>                            
+
+</div> 

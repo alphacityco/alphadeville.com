@@ -32,10 +32,25 @@
   <meta name="twitter:description" content="We can build anything you can imagine on Internet (only if its legal)">
   <meta name="twitter:image" content="<%= "#{root_url}assets/logo/mini-logo-reverse-tw.png" %>">
 
+  <link rel="stylesheet" href="http://cache.addthiscdn.com/icons/v1/sprites/services.css" type="text/css"/>
 </head>
 <body>
 
-<%= yield %>
+  <%= yield %>
+
+  <script type="text/javascript">
+    // GOOGLE ANALYTICS  
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36211934-1']);
+    _gaq.push(['_setDomainName', 'alphadeville.com']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 
 </body>
 </html>

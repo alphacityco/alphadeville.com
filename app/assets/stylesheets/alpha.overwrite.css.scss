@@ -1,0 +1,66 @@
+
+#take-me-home {
+  height: 725px;
+}
+
+.subheader {
+  margin-top: 25px !important;
+}
+.subheader-separator {
+  margin-top: 10px !important;
+}
+
+#about {
+  height: 900px !important;
+}
+
+#services {
+  height: 700px !important;
+
+  .service-title {
+    font-weight: bold;
+  }
+  .services-list p {
+    text-align:justify;  
+  }
+}
+
+#showcase {
+  height: 2600px;
+
+  .showcase-sub-container .pic-frame a {
+    color: #273C66;
+  }
+  .showcase-sub-container .pic-frame a:hover {
+    color: #58ACFA;
+    text-decoration: underline;
+  }
+  .showcase-sub-container {
+    padding-top: 30px !important;
+  }
+}
+
+#our-team {
+  height: 950px;
+
+  .column-300 p a {
+    color: #504F11;
+  }
+  .column-300 p a:hover {
+    color: #686716;
+  }
+}
+
+#contact-us {
+  height: 820px;
+}
+
+.share-zone {
+  text-align: right;
+
+  a {
+    display: inline;
+    margin-left: 10px;
+  }
+}
+

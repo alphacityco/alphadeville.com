@@ -12,18 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
-
-$(function(){
-
-  $('.glow-me').addGlow({
-    radius: 100,
-    duration: 500
-  });
-
-});
-
-// COMMON METHODS FOR ALL APPLICATION :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-function handle_fail(xhr, message) {  
-  alert(message);  
-}
+//= require underscore
+//= require backbone
+//= require app/alphadeville
+//= require_tree ./app/templates
+//= require_tree ./app/models
+//= require_tree ./app/collections
+//= require_tree ./app/views
+//= require_tree ./app/routers
+//= require_tree ./lib
