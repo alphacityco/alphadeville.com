@@ -27,7 +27,8 @@ end
 
 group :development do
   gem 'sqlite3'
-  gem 'heroku_san'
+  gem "heroku"
+  gem "heroku_san"
   gem 'sitemap_generator'
 end
 

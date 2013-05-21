@@ -40,6 +40,7 @@ GEM
     activesupport (3.2.13)
       i18n (= 0.6.1)
       multi_json (~> 1.0)
+    addressable (2.3.2)
     arbre (1.0.1)
       activesupport (>= 3.0.0)
     arel (3.0.2)
@@ -81,6 +82,12 @@ GEM
     formtastic (2.2.1)
       actionpack (>= 3.0)
     has_scope (0.5.1)
+    heroku (2.32.6)
+      heroku-api (~> 0.3.5)
+      launchy (>= 0.3.2)
+      netrc (~> 0.7.7)
+      rest-client (~> 1.6.1)
+      rubyzip
     heroku-api (0.3.10)
       excon (~> 0.21.0)
     heroku_san (4.2.5)
@@ -99,6 +106,8 @@ GEM
     kaminari (0.14.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    launchy (2.1.2)
+      addressable (~> 2.3)
     libv8 (3.11.8.17)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -110,6 +119,7 @@ GEM
       polyamorous (~> 0.5.0)
     mime-types (1.23)
     multi_json (1.7.3)
+    netrc (0.7.7)
     orm_adapter (0.4.0)
     pg (0.15.1)
     polyamorous (0.5.0)
@@ -143,6 +153,9 @@ GEM
     ref (1.0.4)
     responders (0.9.3)
       railties (~> 3.1)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rubyzip (0.9.9)
     sass (3.2.9)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -182,6 +195,7 @@ DEPENDENCIES
   activeadmin
   backbone-on-rails
   coffee-rails (~> 3.2.1)
+  heroku
   heroku_san
   jquery-rails
   pg
