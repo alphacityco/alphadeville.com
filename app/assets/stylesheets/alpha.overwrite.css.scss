@@ -41,7 +41,18 @@
 
   .project-group {
     display: block;
-  }  
+  }
+  .pic { 
+    a {
+      line-height: 260px;
+
+      img {
+        width: 100%;
+        vertical-align: middle;
+      }
+    }
+  }
+  
 }
 
 #our-team {
