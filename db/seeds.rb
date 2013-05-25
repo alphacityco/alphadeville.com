@@ -1,6 +1,6 @@
 # coding: utf-8
 
-AdminUser.create(:email => 'alpha@alpha.com', :password => 'alpha', :password_confirmation => 'alpha')
+AdminUser.create!(:email => 'alpha@alpha.com', :password => 'password', :password_confirmation => 'password')
 
 ProjectGroup.create(name: "Web")
 ProjectGroup.create(name: "Diseño")
