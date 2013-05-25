@@ -1,21 +1,15 @@
 Alphadeville.Views.ProjectGroup = Backbone.View.extend
   template: JST['app/templates/project_group']
 
-  initialize: ->   
-    project_group_id = @model.get('id')    
+  initialize: ->       
     @projects = new Alphadeville.Collections.Projects
-
-    @projects.on 'reset', @showProjects, @
-    @projects.fetch
-      reset: true
-      data: $.param
-        project_group_id: project_group_id
+    @projects.on 'reset', @showProjects, @    
 
   showProject: (project, nomargin) -> 
     project_view = new Alphadeville.Views.Project 
       model: project    
       nomargin: nomargin
-    this.$(".projects").append project_view.render().el
+    this.$(".projects").append project_view.render().el        
 
   showProjects: ->    
     for project, i in @projects.models      
@@ -26,5 +20,9 @@ Alphadeville.Views.ProjectGroup = Backbone.View.extend
     this.$el.html @template
       project_group:
         name: @model.get('name')
-    # @showProjects()    
+    project_group_id = @model.get('id')    
+    @projects.fetch
+      reset: true
+      data: $.param
+        project_group_id: project_group_id
     @

@@ -2,11 +2,9 @@ Alphadeville.Views.Home = Backbone.View.extend
   template: JST['app/templates/home']
 
   initialize: ->     
-    @project_groups = new Alphadeville.Collections.ProjectGroups
-    
+    @project_groups = new Alphadeville.Collections.ProjectGroups    
     @project_groups.on 'reset', @showProjectGroups, @    
-    @project_groups.fetch
-      reset: true    
+        
 
   loadAddThisLinks: ->
     addthis.buttons_in $("#about .share-zone"), 
@@ -38,5 +36,6 @@ Alphadeville.Views.Home = Backbone.View.extend
 
   render: ->    
     this.$el.html @template()     
-    # @showProjectGroups()
+    @project_groups.fetch
+      reset: true
     @

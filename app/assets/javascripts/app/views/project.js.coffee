@@ -15,4 +15,22 @@ Alphadeville.Views.Project = Backbone.View.extend
         zoom_details: @model.get('zoom_details')
         img_large: @model.get('img_large')
         nomargin: @nomargin
+
+    # THEME SPECIFIC CODE
+    this.$('.pic a').lightBox
+      imageLoading: '/assets/lightbox/loading.gif'
+      imageBtnClose: '/assets/lightbox/close.gif'
+      imageBtnPrev: '/assets/lightbox/prev.gif'
+      imageBtnNext: '/assets/lightbox/next.gif'
+
+    this.$('.roll').css('opacity','0')
+    this.$('.roll').hover ->
+        $(this).stop().animate({opacity: .7}, 'slow')
+    , ->
+      $(this).stop().animate({opacity: 0}, 'slow')
+    
+    if window.PIE
+      this.$('.rounded').each ->
+        PIE.attach(this)   
+
     @
