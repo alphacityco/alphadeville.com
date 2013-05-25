@@ -1,0 +1,8 @@
+<div class="project-group">
+  <div class="area-title"><%= @project_group.name %> <p>+ + + + + + + + + + + + + + + + + + + + +</p></div>        
+  
+  <div class="projects"></div>
+
+
+</div>
+<div class="clear"></div>

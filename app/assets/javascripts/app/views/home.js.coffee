@@ -1,8 +1,12 @@
 Alphadeville.Views.Home = Backbone.View.extend
   template: JST['app/templates/home']
 
-  initialize: ->    
-
+  initialize: ->     
+    @project_groups = new Alphadeville.Collections.ProjectGroups
+    
+    @project_groups.on 'reset', @showProjectGroups, @    
+    @project_groups.fetch
+      reset: true    
 
   loadAddThisLinks: ->
     addthis.buttons_in $("#about .share-zone"), 
@@ -23,8 +27,16 @@ Alphadeville.Views.Home = Backbone.View.extend
 
     addthis.buttons_in $("#contact-us .share-zone"), 
         url: "http://alphadeville.com" 
-        title: "Martini clásico: Y muy importante: agitar más no revolver el Martini [5/5]"
+        title: "Martini clásico: Y muy importante: agitar más no revolver el Martini [5/5]"     
+
+  showProjectGroup: (project_group) ->
+    project_group_view = new Alphadeville.Views.ProjectGroup model: project_group
+    this.$('#project-group-list').append project_group_view.render().el    
+
+  showProjectGroups: ->    
+    @showProjectGroup(project_group) for project_group in @project_groups.models       
 
   render: ->    
-    this.$el.html @template()
-
+    this.$el.html @template()     
+    # @showProjectGroups()
+    @

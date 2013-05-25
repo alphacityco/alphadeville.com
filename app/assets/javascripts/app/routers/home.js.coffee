@@ -1,18 +1,14 @@
 Alphadeville.Routers.Home = Backbone.Router.extend
   routes:
-    '': 'showHome'
-    '/section/:section': ''
+    '': 'showHome'    
     '*whatever': 'defaultRoute'
 
-  initialize: ->
-
+  initialize: ->            
+    
   showHome: ->
-    view = new Alphadeville.Views.Home
+    view = new Alphadeville.Views.Home      
     @showView view
-    view.loadAddThisLinks()
-
-  goToSection: (section) ->
-    console.log section
+    view.loadAddThisLinks()    
 
   defaultRoute: ->
     window.router.navigate '', true
@@ -22,3 +18,4 @@ Alphadeville.Routers.Home = Backbone.Router.extend
     @currentView = view
     @currentView.render()
     $("#app-wrap").html @currentView.el
+

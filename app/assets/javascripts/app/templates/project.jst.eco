@@ -1,0 +1,12 @@
+<div class="pic-frame rounded <%= @project.nomargin %>">
+  <div class="pic">
+    <a href="<%= @project.img_large %>" title="<%= @project.zoom_details %>">
+      <span class="roll" style="opacity: 0;"></span>
+      <img src="<%= @project.img_small %>" alt="<%= @project.name %>">
+    </a>                         
+  </div>
+  <span><a href="<%= @project.title_link %>" target="_new"><%= @project.title %></a></span>
+  <p>
+    <%= @project.subtitle %>
+  </p>
+</div>
